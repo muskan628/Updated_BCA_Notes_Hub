@@ -5,10 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BCA Notes Hub - Dashboard</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+  <style>
+
+.logout-btn {
+  background: transparent;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-weight: bold;
+}
+
+.logout-btn:hover {
+  background: linear-gradient(135deg, #6a82fb, #0c0362);
+}
+
+  
+
+
+  </style>
 </head>
 <body class="dash_body">
   <header>
     <h2>BCA Notes Hub - Dashboard</h2>
+     <form action="/logout" method="POST" style="display:inline;">
+    <button type="button" class="logout-btn">🚪 Logout</button>
+  </form>
   </header>
 
   <div class="containerq">
