@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz</title>
+<style>
+    body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: #f0f4f8;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #a5 {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #243dac;
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    #qq {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        max-width: 1200px;
+        padding: 1rem;
+    }
+
+    .quiz-card {
+        display: block;
+        width: 250px;
+        height: 120px;
+        background: linear-gradient(135deg, #4b6cb7, #2367ed);
+        color: white;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+        line-height: 120px;
+        border-radius: 15px;
+        text-decoration: none;
+        box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+        transition: all 0.3s ease;
+    }
+
+    .quiz-card:hover {
+        transform: translateY(-5px) scale(1.05);
+        box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+        background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+    }
+
+    @media (max-width: 768px) {
+        .quiz-card {
+            width: 200px;
+            height: 100px;
+            font-size: 1rem;
+            line-height: 100px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .quiz-card {
+            width: 90%;
+            height: 80px;
+            font-size: 1rem;
+            line-height: 80px;
+        }
+    }
+
+    
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 14px;
+      color: #888;
+      padding-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+    <div id="a5">Test Your Knowledge</div>
+
+    <div id="qq">
+        <a href="{{ url_for('stat quiz') }}" class="quiz-card">📊 Stat Quiz</a>
+        <a href="{{ url_for('cyber quiz') }}" class="quiz-card">🛡️ Cyber Quiz</a>
+        <a href="{{ url_for('de quiz') }}" class="quiz-card">💡 Digital Ele. Quiz</a>
+        <a href="{{ url_for('dbms quiz') }}" class="quiz-card">🗄️ DBMS Quiz</a>
+        <a href="{{ url_for('python quiz') }}" class="quiz-card">🐍 Python Quiz</a>
+        <a href="{{ url_for('ds quiz') }}" class="quiz-card">🌀 DS Quiz</a>
+        <a href="{{ url_for('c quiz') }}" class="quiz-card">📄 C Quiz</a>
+        <a href="{{ url_for('web quiz') }}" class="quiz-card">🌐 Web Dev. Quiz</a>
+        <a href="{{ url_for('arch quiz') }}" class="quiz-card">🖥️ Comp Architecture Quiz</a>
+    </div>
+
+     <footer>
+    <p>BCA Notes Hub | Designed with ❤ for Students <br>Powered by Muskan and Taranveer Kaur, CS Department, Akal University</p>
+  </footer>
+    </div>
+</body>
+</html>

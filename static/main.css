@@ -1,0 +1,286 @@
+ .login_body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f4f9ff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .login-container,.register-container  {
+      width: 350px;
+      max-width: 90%;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    .register-container {
+        width: 400px;
+    }
+
+    .login-container h2,.register-container h2  {
+      color: #004aad;
+      margin-bottom: 20px;
+      font-size: 22px;
+    }
+
+    .login-container input,.register-container input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+
+    .login-container button,.register-container button{
+      width: 100%;
+      padding: 12px;
+      background: #004aad;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+      margin-top: 10px;
+    }
+
+    .login-container button:hover,.register-container button:hover {
+      background: #00337f;
+    }
+
+    .google-btn {
+      background: #db4437;
+    }
+
+    .google-btn:hover {
+      background: #b23121;
+    }
+
+    .extra-links {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .extra-links a {
+      color: #004aad;
+      text-decoration: none;
+    }
+
+    .extra-links a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive Styling */
+    @media (max-width: 480px) {
+      .login-container,.register-container {
+        padding: 20px;
+      }
+
+      .login-container h2,.register-container h2 {
+        font-size: 20px;
+      }
+
+      .login-container input,
+      .login-container button,.register-container input,
+      .register-container button {
+        padding: 10px;
+        font-size: 14px;
+      }
+    }
+
+    @media (max-width: 360px) {
+      .login-container,.register-container {
+        width: 95%;
+        padding: 15px;
+      }
+
+      .login-container h2,.register-container h2 {
+        font-size: 18px;
+      }
+
+      .login-container input,
+      .login-container button,.register-container input,
+      .register-container button  {
+        padding: 8px;
+        font-size: 13px;
+      }
+    }
+
+    /* Dashboard css */
+
+    
+     .dash_body {
+      font-family: Arial, sans-serif;
+      background: #f4f9ff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #004aad;
+      color: white;
+      padding: 15px 30px;
+      text-align: center;
+    }
+
+    header h2 {
+      margin: 0;
+    }
+
+    .containerq{
+      padding: 30px;
+      text-align: center;
+    }
+
+    .top-info {
+      background: #e6f0ff;
+      padding: 15px 20px;
+      border-radius: 10px;
+      color: #004aad;
+      font-size: 16px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .welcome {
+      font-size: 22px;
+      margin-bottom: 20px;
+      color: #004aad;
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: #004aad;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .bottom-info {
+      margin-top: 30px;
+      padding: 15px 0;
+      font-size: 14px;
+      color: #555;
+    }
+
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 14px;
+      color: #888;
+    }
+
+    /* quiz css */
+
+    .subject-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .subject-card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .subject-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .subject-card h3 {
+      color: #004aad;
+      margin-bottom: 8px;
+    }
+
+    .subject-card p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    /* Quiz Container */
+    #quizContainer {
+      display: none; /* initially hidden */
+      margin-top: 20px;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    #quizContainer h3 {
+      color: #004aad;
+      margin-bottom: 15px;
+    }
+
+    #quizQuestions p {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 14px;
+      color: #888;
+      padding-bottom: 20px;
+    }
+
+    button.start-btn {
+      padding: 10px 18px;
+      background: #004aad;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: 0.3s;
+    }
+
+    button.start-btn:hover {
+      background: #00337f;
+    }
+
+    /* Responsive */
+    @media (max-width: 480px) {
+      .container { padding: 20px; }
+      .subject-card { padding: 15px; }
+      #quizContainer { padding: 15px; }
+    }
+
+  

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: Python</title>
+    <link rel="stylesheet" href="/static/quiz.css">
+</head>
+<body>
+
+<div class="quiz-container">
+    <h2>Python Quiz</h2>
+    <form id="quiz-form">
+       <!-- 1. Concept of Data Types -->
+    <div class="question">
+        <p>1. Which of the following is a mutable data type in Python?</p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q1" value="a"> Tuple</label><br>
+        <label class="answer"><input type="radio" name="q1" value="b"> List</label><br>
+        <label class="answer"><input type="radio" name="q1" value="c"> String</label><br>
+        <label class="answer"><input type="radio" name="q1" value="d"> Integer</label><br></div>
+    </div>
+
+    <!-- 2. Variables -->
+    <div class="question">
+        <p>2. What will be the output of the following Python code?
+        <br><code>x = 5<br> y = 3<br> print(x + y)</code></p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q2" value="a"> 8</label><br>
+        <label class="answer"><input type="radio" name="q2" value="b"> 53</label><br>
+        <label class="answer"><input type="radio" name="q2" value="c"> 3</label><br>
+        <label class="answer"><input type="radio" name="q2" value="d"> Error</label><br></div>
+    </div>
+
+    <!-- 3. Operators and Expressions -->
+    <div class="question">
+        <p>3. Which operator is used for floor division in Python?</p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q3" value="a"> /</label><br>
+        <label class="answer"><input type="radio" name="q3" value="b"> //</label><br>
+        <label class="answer"><input type="radio" name="q3" value="c"> %</label><br>
+        <label class="answer"><input type="radio" name="q3" value="d"> **</label><br></div>
+    </div>
+
+    <!-- 4. Comments and Understanding Error Messages -->
+    <div class="question">
+        <p>4. What will be the output of the following Python code?<br><code># This is a comment<br> print("Hello World")</code></p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q4" value="a"> Hello World</label><br>
+        <label class="answer"><input type="radio" name="q4" value="b"> # This is a comment</label><br>
+        <label class="answer"><input type="radio" name="q4" value="c"> Error</label><br>
+        <label class="answer"><input type="radio" name="q4" value="d"> No output</label><br></div>
+    </div>
+
+    <!-- 5. Conditions -->
+    <div class="question">
+        <p>5. What is the result of the following Python expression?<br><code>3 > 2 and 5 < 6</code></p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q5" value="a"> True</label><br>
+        <label class="answer"><input type="radio" name="q5" value="b"> False</label><br>
+        <label class="answer"><input type="radio" name="q5" value="c"> Error</label><br>
+        <label class="answer"><input type="radio" name="q5" value="d"> None of the above</label><br></div>
+    </div>
+
+    <!-- 6. Boolean Logic -->
+    <div class="question">
+        <p>6. What is the output of the following Python expression?<br><code>not (True and False)</code></p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q6" value="a"> True</label><br>
+        <label class="answer"><input type="radio" name="q6" value="b"> False</label><br>
+        <label class="answer"><input type="radio" name="q6" value="c"> Error</label><br>
+        <label class="answer"><input type="radio" name="q6" value="d"> None of the above</label><br></div>
+    </div>
+
+    <!-- 7. Control Statements -->
+    <div class="question">
+        <p>7. What will be the output of the following Python code?<br><code>if 10 > 5:<br>    print("True")<br>else:<br>    print("False")</code></p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q7" value="a"> True</label><br>
+        <label class="answer"><input type="radio" name="q7" value="b"> False</label><br>
+        <label class="answer"><input type="radio" name="q7" value="c"> Error</label><br>
+        <label class="answer"><input type="radio" name="q7" value="d"> None of the above</label><br></div>
+    </div>
+
+    <!-- 8. Functions -->
+    <div class="question">
+        <p>8. What is the correct syntax for defining a function in Python?</p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q8" value="a"> function myFunction() </label><br>
+        <label class="answer"><input type="radio" name="q8" value="b"> def myFunction() </label><br>
+        <label class="answer"><input type="radio" name="q8" value="c"> function: myFunction() </label><br>
+        <label class="answer"><input type="radio" name="q8" value="d"> def myFunction: </label><br></div>
+    </div>
+
+    <!-- 9. Scope Rule -->
+    <div class="question">
+        <p>9. What is the scope of a variable declared inside a function in Python?</p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q9" value="a"> Local scope</label><br>
+        <label class="answer"><input type="radio" name="q9" value="b"> Global scope</label><br>
+        <label class="answer"><input type="radio" name="q9" value="c"> Both local and global scope</label><br>
+        <label class="answer"><input type="radio" name="q9" value="d"> None of the above</label><br></div>
+    </div>
+
+    <!-- 10. Recursion and Iteration -->
+    <div class="question">
+        <p>10. What is the main difference between recursion and iteration in Python?</p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q10" value="a"> Recursion uses loops, iteration uses function calls</label><br>
+        <label class="answer"><input type="radio" name="q10" value="b"> Recursion calls itself, iteration uses a loop</label><br>
+        <label class="answer"><input type="radio" name="q10" value="c"> There is no difference</label><br>
+        <label class="answer"><input type="radio" name="q10" value="d"> Iteration calls itself, recursion uses loops</label><br></div>
+    </div>
+
+    <!-- 11. Exception Handling -->
+    <div class="question">
+        <p>11. Which of the following is used to handle exceptions in Python?</p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q11" value="a"> try and except</label><br>
+        <label class="answer"><input type="radio" name="q11" value="b"> catch and throw</label><br>
+        <label class="answer"><input type="radio" name="q11" value="c"> throw and catch</label><br>
+        <label class="answer"><input type="radio" name="q11" value="d"> error and except</label><br></div>
+    </div>
+
+    <!-- 12. Basic List Operations -->
+    <div class="question">
+        <p>12. Which of the following methods is used to add an item to the end of a list in Python?</p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q12" value="a"> append()</label><br>
+        <label class="answer"><input type="radio" name="q12" value="b"> insert()</label><br>
+        <label class="answer"><input type="radio" name="q12" value="c"> extend()</label><br>
+        <label class="answer"><input type="radio" name="q12" value="d"> pop()</label><br></div>
+    </div>
+
+    <!-- 13. Dictionary Literals -->
+    <div class="question">
+        <p>13. What is the correct syntax for creating a dictionary in Python?</p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q13" value="a"> dictionary = [1, 2, 3]</label><br>
+        <label class="answer"><input type="radio" name="q13" value="b"> dictionary = (1, 2, 3)</label><br>
+        <label class="answer"><input type="radio" name="q13" value="c"> dictionary = {1: 'a', 2: 'b'}</label><br>
+        <label class="answer"><input type="radio" name="q13" value="d"> dictionary = 1, 2, 3</label><br></div>
+    </div>
+
+    <!-- 14. String Manipulation -->
+    <div class="question">
+        <p>14. What will be the output of the following Python code?<br><code>text = "hello"<br>print(text.upper())</code></p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q14" value="a"> hello</label><br>
+        <label class="answer"><input type="radio" name="q14" value="b"> HELLO</label><br>
+        <label class="answer"><input type="radio" name="q14" value="c"> hello.upper()</label><br>
+        <label class="answer"><input type="radio" name="q14" value="d"> None of the above</label><br></div>
+    </div>
+
+    <!-- 15. Pandas -->
+    <div class="question">
+        <p>15. Which function is used to read a CSV file in Pandas?</p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q15" value="a"> read_csv()</label><br>
+        <label class="answer"><input type="radio" name="q15" value="b"> load_csv()</label><br>
+        <label class="answer"><input type="radio" name="q15" value="c"> open_csv()</label><br>
+        <label class="answer"><input type="radio" name="q15" value="d"> read_file()</label><br></div>
+    </div>
+
+    <!-- 16. Numpy -->
+    <div class="question">
+        <p>16. What is the main use of the Numpy library in Python?</p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q16" value="a"> Data visualization</label><br>
+        <label class="answer"><input type="radio" name="q16" value="b"> Data manipulation and analysis</label><br>
+        <label class="answer"><input type="radio" name="q16" value="c"> Scientific computing</label><br>
+        <label class="answer"><input type="radio" name="q16" value="d"> Machine learning</label><br></div>
+    </div>
+
+    <!-- 17. Pandas -->
+    <div class="question">
+        <p>17. Which function is used to create a DataFrame in Pandas?</p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q17" value="a"> DataFrame()</label><br>
+        <label class="answer"><input type="radio" name="q17" value="b"> create_frame()</label><br>
+        <label class="answer"><input type="radio" name="q17" value="c"> pandas_df()</label><br>
+        <label class="answer"><input type="radio" name="q17" value="d"> create_df()</label><br></div>
+    </div>
+
+    <!-- 18. Numpy -->
+    <div class="question">
+        <p>18. Which method is used to generate an array of zeros in Numpy?</p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q18" value="a"> numpy.zeros()</label><br>
+        <label class="answer"><input type="radio" name="q18" value="b"> numpy.ones()</label><br>
+        <label class="answer"><input type="radio" name="q18" value="c"> numpy.array()</label><br>
+        <label class="answer"><input type="radio" name="q18" value="d"> numpy.empty()</label><br></div>
+    </div>
+
+    <!-- 19. Pandas -->
+    <div class="question">
+        <p>19. Which of the following is a valid Pandas data structure?</p>
+        <div class="options">
+        <label class="answer"><input type="radio" name="q19" value="a"> Series</label><br>
+        <label class="answer"><input type="radio" name="q19" value="b"> DataFrame</label><br>
+        <label class="answer"><input type="radio" name="q19" value="c"> Both</label><br>
+        <label class="answer"><input type="radio" name="q19" value="d"> None of the above</label><br></div>
+    </div>
+
+   <!-- 20. Numpy -->
+   <div class="question">
+    <p>20. Which function is used to calculate the mean of an array in Numpy?</p>
+    <div class="options">
+    <label class="answer"><input type="radio" name="q20" value="a"> mean()</label><br>
+    <label class="answer"><input type="radio" name="q20" value="b"> numpy.mean()</label><br>
+    <label class="answer"><input type="radio" name="q20" value="c"> average()</label><br>
+    <label class="answer"><input type="radio" name="q20" value="d"> numpy.average()</label><br></div>
+</div>
+
+        <button type="button" onclick="checkAnswers()">Submit Quiz</button>
+    </form>
+
+    <div id="result"></div>
+</div>
+
+<script>
+    function checkAnswers() {
+        var score = 0;
+        var totalQuestions = 20;
+        var correctAnswers = {
+            q1: 'b',
+            q2: 'a',
+            q3: 'b',
+            q4: 'a',
+            q5: 'a',
+            q6: 'a',
+            q7: 'a',
+            q8: 'b',
+            q9: 'a',
+            q10: 'b',
+            q11: 'a',
+            q12: 'a',
+            q13: 'c',
+            q14: 'b',
+            q15: 'a',
+            q16: 'c',
+            q17: 'a',
+            q18: 'a',
+            q19: 'c',
+            q20: 'b'
+        };
+
+        var resultText = "";
+
+        // Check answers
+        for (var i = 1; i <= totalQuestions; i++) {
+            var question = "q" + i;
+            var selectedAnswer = document.querySelector('input[name="' + question + '"]:checked');
+            if (selectedAnswer) {
+                if (selectedAnswer.value === correctAnswers[question]) {
+                    score++;
+                    resultText += "<div class='result-item'>Question " + i + ": Correct</div>";
+                } else {
+                    resultText += "<div class='result-item'>Question " + i + ": Incorrect (You chose " + selectedAnswer.value + ")</div>";
+                }
+            } else {
+                resultText += "<div class='result-item'>Question " + i + ": No answer selected</div>";
+            }
+        }
+
+        // Display result
+        resultText += "<div class='result-item'>Your total score: " + score + " / " + totalQuestions + "</div>";
+        document.getElementById("result").innerHTML = resultText;
+    }
+</script>
+
+</body>
+</html>

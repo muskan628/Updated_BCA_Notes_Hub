@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: Computer Architecture </title>
+    <link rel="stylesheet" href="/static/quiz.css">
+</head>
+<body>
+
+<div class="quiz-container">
+    <h2>Computer Architecture Quiz</h2>
+    <form id="quiz-form">
+        <div class="question"><h3>1. What is the primary function of a microprocessor?</h3>
+            <div class="options">
+              <label><input type="radio" name="q1" value="a">Data storage</label><br>
+              <label><input type="radio" name="q1" value="b">Control and processing of instructions</label><br>
+              <label><input type="radio" name="q1" value="c">Input and output processing</label><br>
+              <label><input type="radio" name="q1" value="d">Memory management</label><br>
+            </div>
+          </div>
+          
+          <div class="question"><h3>2. How many bits are in the address bus of the 8085 microprocessor?</h3>
+            <div class="options">
+              <label><input type="radio" name="q2" value="a">8 bits</label><br>
+              <label><input type="radio" name="q2" value="b">16 bits</label><br>
+              <label><input type="radio" name="q2" value="c">32 bits</label><br>
+              <label><input type="radio" name="q2" value="d">64 bits</label><br>
+            </div>
+          </div>
+          
+          <div class="question"><h3>3. Which register in 8085 is responsible for storing the memory address of the next instruction?</h3>
+            <div class="options">
+              <label><input type="radio" name="q3" value="a">Program Counter (PC)</label><br>
+              <label><input type="radio" name="q3" value="b">Stack Pointer (SP)</label><br>
+              <label><input type="radio" name="q3" value="c">Accumulator (A)</label><br>
+              <label><input type="radio" name="q3" value="d">Instruction Register (IR)</label><br>
+            </div>
+          </div>
+          
+          <div class="question"><h3>4. What is the size of a general-purpose register in the 8085 microprocessor?</h3>
+            <div class="options">
+              <label><input type="radio" name="q4" value="a">8 bits</label><br>
+              <label><input type="radio" name="q4" value="b">16 bits</label><br>
+              <label><input type="radio" name="q4" value="c">32 bits</label><br>
+              <label><input type="radio" name="q4" value="d">64 bits</label><br>
+            </div>
+          </div>
+          
+          <div class="question"><h3>5. What is the role of the accumulator in the 8085 microprocessor?</h3>
+            <div class="options">
+              <label><input type="radio" name="q5" value="a">Store data for processing</label><br>
+              <label><input type="radio" name="q5" value="b">Control the operation of the microprocessor</label><br>
+              <label><input type="radio" name="q5" value="c">Hold the address of the memory location</label><br>
+              <label><input type="radio" name="q5" value="d">None of the above</label><br>
+            </div>
+          </div>
+          
+          <div class="question"><h3>6. Which instruction is used to transfer data from one register to another in the 8085 microprocessor?</h3>
+            <div class="options">
+              <label><input type="radio" name="q6" value="a">MOV</label><br>
+              <label><input type="radio" name="q6" value="b">ADD</label><br>
+              <label><input type="radio" name="q6" value="c">MVI</label><br>
+              <label><input type="radio" name="q6" value="d">SUB</label><br>
+            </div>
+          </div>
+          
+          <div class="question"><h3>7. Which of the following is a valid addressing mode in the 8085 microprocessor?</h3>
+            <div class="options">
+              <label><input type="radio" name="q7" value="a">Immediate addressing</label><br>
+              <label><input type="radio" name="q7" value="b">Register addressing</label><br>
+              <label><input type="radio" name="q7" value="c">Direct addressing</label><br>
+              <label><input type="radio" name="q7" value="d">All of the above</label><br>
+            </div>
+          </div>
+          
+          <div class="question"><h3>8. What is the primary function of the `NOP` instruction in 8085?</h3>
+            <div class="options">
+              <label><input type="radio" name="q8" value="a">No operation</label><br>
+              <label><input type="radio" name="q8" value="b">Add contents of registers</label><br>
+              <label><input type="radio" name="q8" value="c">Jump to another instruction</label><br>
+              <label><input type="radio" name="q8" value="d">Perform subtraction</label><br>
+            </div>
+          </div>
+          
+          <div class="question"><h3>9. In which addressing mode does the operand reside in a memory location specified by the instruction?</h3>
+            <div class="options">
+              <label><input type="radio" name="q9" value="a">Direct Addressing</label><br>
+              <label><input type="radio" name="q9" value="b">Indirect Addressing</label><br>
+              <label><input type="radio" name="q9" value="c">Immediate Addressing</label><br>
+              <label><input type="radio" name="q9" value="d">Register Addressing</label><br>
+            </div>
+          </div>
+          
+          <div class="question"><h3>10. Which instruction format is used to specify the operation and operands in 8085 microprocessor?</h3>
+            <div class="options">
+              <label><input type="radio" name="q10" value="a">Opcode format</label><br>
+              <label><input type="radio" name="q10" value="b">Register transfer format</label><br>
+              <label><input type="radio" name="q10" value="c">Memory transfer format</label><br>
+              <label><input type="radio" name="q10" value="d">Machine code format</label><br>
+            </div>
+          </div>
+<!--           
+          #### **Part 3: Interrupts and Control**
+          
+          ```html -->
+          <div class="question"><h3>11. What is the highest priority interrupt in the 8085 microprocessor?</h3>
+            <div class="options">
+              <label><input type="radio" name="q11" value="a">TRAP</label><br>
+              <label><input type="radio" name="q11" value="b">RST7.5</label><br>
+              <label><input type="radio" name="q11" value="c">RST6.5</label><br>
+              <label><input type="radio" name="q11" value="d">RST5.5</label><br>
+            </div>
+          </div>
+          
+          <div class="question"><h3>12. Which of the following instructions is used to perform a priority interrupt in the 8085 microprocessor?</h3>
+            <div class="options">
+              <label><input type="radio" name="q12" value="a">SIM</label><br>
+              <label><input type="radio" name="q12" value="b">RIM</label><br>
+              <label><input type="radio" name="q12" value="c">CALL</label><br>
+              <label><input type="radio" name="q12" value="d">RET</label><br>
+            </div>
+          </div>
+          
+          <div class="question"><h3>13. What is the purpose of the Interrupt Vector Table (IVT) in 8085?</h3>
+            <div class="options">
+              <label><input type="radio" name="q13" value="a">Store the starting address of each interrupt service routine</label><br>
+              <label><input type="radio" name="q13" value="b">Store the interrupt request addresses</label><br>
+              <label><input type="radio" name="q13" value="c">Perform priority management for interrupts</label><br>
+              <label><input type="radio" name="q13" value="d">Store program instructions</label><br>
+            </div>
+          </div>
+          
+          <div class="question"><h3>14. In 8085, what is the function of the `RIM` instruction?</h3>
+            <div class="options">
+              <label><input type="radio" name="q14" value="a">Read the status of the interrupt lines</label><br>
+              <label><input type="radio" name="q14" value="b">Read input data from an I/O device</label><br>
+              <label><input type="radio" name="q14" value="c">Enable interrupt control</label><br>
+              <label><input type="radio" name="q14" value="d">Reset the microprocessor</label><br>
+            </div>
+          </div>
+          
+          <div class="question"><h3>15. What type of interrupt is generated by TRAP in the 8085 microprocessor?</h3>
+            <div class="options">
+              <label><input type="radio" name="q15" value="a">Non-maskable interrupt</label><br>
+              <label><input type="radio" name="q15" value="b">Maskable interrupt</label><br>
+              <label><input type="radio" name="q15" value="c">Software interrupt</label><br>
+              <label><input type="radio" name="q15" value="d">Hardware interrupt</label><br>
+            </div>
+          </div>
+          
+          #### **Part 4: Data Transfer and Operations**
+          
+          ```html
+          <div class="question"><h3>16. Which type of data transfer is used in DMA (Direct Memory Access)?</h3>
+            <div class="options">
+              <label><input type="radio" name="q16" value="a">Interrupt-driven data transfer</label><br>
+              <label><input type="radio" name="q16" value="b">Programmed I/O</label><br>
+              <label><input type="radio" name="q16" value="c">Memory-to-memory transfer</label><br>
+              <label><input type="radio" name="q16" value="d">None of the above</label><br>
+            </div>
+          </div>
+          
+          <div class="question"><h3>17. What is the function of the `MVI` instruction in the 8085 microprocessor?</h3>
+            <div class="options">
+              <label><input type="radio" name="q17" value="a">Move immediate data into a register</label><br>
+              <label><input type="radio" name="q17" value="b">Move data between registers</label><br>
+              <label><input type="radio" name="q17" value="c">Add data</label><br>
+              <label><input type="radio" name="q17" value="d">None of the above</label><br>
+            </div>
+          </div>
+          
+          <div class="question"><h3>18. What is the maximum number of I/O ports that can be used with 8085 microprocessor?</h3>
+            <div class="options">
+              <label><input type="radio" name="q18" value="a">64</label><br>
+              <label><input type="radio" name="q18" value="b">128</label><br>
+              <label><input type="radio" name="q18" value="c">256</label><br>
+              <label><input type="radio" name="q18" value="d">512</label><br>
+            </div>
+          </div>
+          
+          <div class="question"><h3>19. How many machine cycles are required for a 16-bit memory transfer in 8085?</h3>
+            <div class="options">
+              <label><input type="radio" name="q19" value="a">2</label><br>
+              <label><input type="radio" name="q19" value="b">3</label><br>
+              <label><input type="radio" name="q19" value="c">4</label><br>
+              <label><input type="radio" name="q19" value="d">5</label><br>
+            </div>
+          </div>
+          
+          <div class="question"><h3>20. What is the purpose of the instruction cycle in the 8085 microprocessor?</h3>
+            <div class="options">
+              <label><input type="radio" name="q20" value="a">Execute the instructions</label><br>
+              <label><input type="radio" name="q20" value="b">Fetch the instruction from memory</label><br>
+              <label><input type="radio" name="q20" value="c">Decode the instruction</label><br>
+              <label><input type="radio" name="q20" value="d">All of the above</label><br>
+            </div>
+          </div>
+          
+  
+
+        <button type="button" onclick="checkAnswers()">Submit Quiz</button>
+    </form>
+
+    <div id="result"></div>
+</div>
+
+<script>
+    function checkAnswers() {
+        var score = 0;
+        var totalQuestions = 20;
+        var correctAnswers = {
+            q1: "b", q2: "b", q3: "a", q4: "a",
+                q5: "a", q6: "a", q7: "d", q8: "a",
+                q9: "a", q10: "a", q11: "a", q12: "a",
+                q13: "a", q14: "a", q15: "a", q16: "c",
+                q17: "a", q18: "b", q19: "c", q20: "d"
+        };
+
+        var resultText = "";
+
+        // Check answers
+        for (var i = 1; i <= totalQuestions; i++) {
+            var question = "q" + i;
+            var selectedAnswer = document.querySelector('input[name="' + question + '"]:checked');
+            if (selectedAnswer) {
+                if (selectedAnswer.value === correctAnswers[question]) {
+                    score++;
+                    resultText += "<div class='result-item'>Question " + i + ": Correct</div>";
+                } else {
+                    resultText += "<div class='result-item'>Question " + i + ": Incorrect (You chose " + selectedAnswer.value + ")</div>";
+                }
+            } else {
+                resultText += "<div class='result-item'>Question " + i + ": No answer selected</div>";
+            }
+        }
+
+        // Display result
+        resultText += "<div class='result-item'>Your total score: " + score + " / " + totalQuestions + "</div>";
+        document.getElementById("result").innerHTML = resultText;
+    }
+</script>
+
+</body>
+</html>

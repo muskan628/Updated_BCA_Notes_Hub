@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCA Notes Hub-Notes</title>
+    <link rel="stylesheet" href="/static/subject.css">
+</head>
+<body>
+    
+
+    <div id="a4"></div>
+
+    <div id="a5">
+        📚Subjects
+    </div>
+
+    <!-- Cards -->
+    <div class="a6">
+        <a href="{{ url_for('stat') }}"><div class="a7">
+            <div class="icon">📊</div>
+            <div class="card-label">Statistics</div>
+        </div></a>
+
+        <a href="{{ url_for('cyber') }}"><div class="a7">
+            <div class="icon">🛡️</div>
+            <div class="card-label">Cyber Security</div>
+        </div></a>
+
+        <a href="{{ url_for('digital') }}"><div class="a7">
+            <div class="icon">🔌</div>
+            <div class="card-label">Digital Electronics</div>
+        </div></a>
+    </div>
+
+    <div class="a6">
+        <a href="{{ url_for('dbms') }}"><div class="a7">
+            <div class="icon">🗄</div>
+            <div class="card-label">DBMS</div>
+        </div></a>
+
+        <a href="{{ url_for('python') }}"><div class="a7">
+            <div class="icon">🐍</div>
+            <div class="card-label">Python</div>
+        </div></a>
+
+        <a href="{{ url_for('ds') }}"><div class="a7">
+            <div class="icon">🧩</div>
+            <div class="card-label">Data Structures</div>
+        </div></a>
+    </div>
+
+    <div class="a6">
+        <a href="{{ url_for('c') }}"><div class="a7">
+            <div class="icon">💻</div>
+            <div class="card-label">C Programming</div>
+        </div></a>
+
+        <a href="{{ url_for('web') }}"><div class="a7">
+            <div class="icon">🌐</div>
+            <div class="card-label">Web Development</div>
+        </div></a>
+
+        <a href="{{ url_for('arch') }}"><div class="a7">
+            <div class="icon">🏛</div>
+            <div class="card-label">Computer Architecture</div>
+        </div></a>
+    </div>
+
+
+    <div class="bottom-info">
+        <small>We will provide notes for more subjects in the future.</small>
+     
+    </div>
+
+    <footer>
+        <p>BCA Notes Hub | Designed with ❤ for Students<br>   Powered by Muskan and Taranveer Kaur, CS Department, Akal University</p>
+    </footer>
+</body>
+</html>

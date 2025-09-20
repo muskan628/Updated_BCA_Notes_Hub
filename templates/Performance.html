@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BCA Notes Hub - Performance</title>
+<link rel="stylesheet" href="/static/performance.css">
+</head>
+<body>
+
+<header>
+  <h2>BCA Notes Hub - My Performance</h2>
+</header>
+
+<div class="containerq">
+
+  <!-- Quiz Scores Table -->
+  <h3>Quiz Scores</h3>
+  <table id="marksTable">
+    <thead>
+      <tr>
+        <th>Subject</th>
+        <th>Marks</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>C Language</td><td>15</td><td>08-Sep-2025</td>
+      </tr>
+      <tr>
+        <td>Python Programming</td><td>18</td><td>06-Sep-2025</td>
+      </tr>
+      <tr>
+        <td>DBMS</td><td>17</td><td>05-Sep-2025</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Score Bars -->
+  <h3>Score Distribution</h3>
+    <div class="score-bar" data-score="15/20">
+      <p>C Language - 15/20</p>
+      <div class="bar">
+        <div class="fill" style="background:#004aad;"></div>
+      </div>
+    </div>
+
+    <div class="score-bar" data-score="18/20">
+      <p>Python Programming - 18/20</p>
+      <div class="bar">
+        <div class="fill" style="background:#009688;"></div>
+      </div>
+    </div>
+
+    <div class="score-bar" data-score="17/20">
+      <p>DBMS - 17/20</p>
+      <div class="bar">
+        <div class="fill" style="background:#ffc107;"></div>
+      </div>
+    </div>
+
+  <!-- Attempts Summary -->
+  <h3>Total Attempts Summary</h3>
+  <div class="summary-box" id="summaryBox">
+    <table>
+      <thead>
+        <tr>
+          <th>Subject</th>
+          <th>Total Attempts</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+</div>
+
+<script src="/static/performance.js"> </script>
+
+</body>
+</html>
