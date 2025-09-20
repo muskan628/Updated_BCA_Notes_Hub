@@ -7,3 +7,12 @@ CREATE TABLE users (
     email VARCHAR(100) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL
 );
+
+
+CREATE TABLE quiz_scores (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT,
+    subject VARCHAR(100),
+    marks INT,
+    date DATE
+);

@@ -36,7 +36,7 @@
         display: block;
         width: 250px;
         height: 120px;
-        background: linear-gradient(135deg, #4b6cb7, #2367ed);
+        background: #004aad;
         color: white;
         font-size: 1.2rem;
         font-weight: bold;
@@ -51,7 +51,7 @@
     .quiz-card:hover {
         transform: translateY(-5px) scale(1.05);
         box-shadow: 0 12px 20px rgba(0,0,0,0.3);
-        background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+        background: linear-gradient(135deg, #6a82fb, #0c0362);
     }
 
     @media (max-width: 768px) {
@@ -86,15 +86,15 @@
     <div id="a5">Test Your Knowledge</div>
 
     <div id="qq">
-        <a href="{{ url_for('stat quiz') }}" class="quiz-card">📊 Stat Quiz</a>
-        <a href="{{ url_for('cyber quiz') }}" class="quiz-card">🛡️ Cyber Quiz</a>
-        <a href="{{ url_for('de quiz') }}" class="quiz-card">💡 Digital Ele. Quiz</a>
-        <a href="{{ url_for('dbms quiz') }}" class="quiz-card">🗄️ DBMS Quiz</a>
-        <a href="{{ url_for('python quiz') }}" class="quiz-card">🐍 Python Quiz</a>
-        <a href="{{ url_for('ds quiz') }}" class="quiz-card">🌀 DS Quiz</a>
-        <a href="{{ url_for('c quiz') }}" class="quiz-card">📄 C Quiz</a>
-        <a href="{{ url_for('web quiz') }}" class="quiz-card">🌐 Web Dev. Quiz</a>
-        <a href="{{ url_for('arch quiz') }}" class="quiz-card">🖥️ Comp Architecture Quiz</a>
+        <a href="{{ url_for('stat_quiz') }}" class="quiz-card">📊 Stat Quiz</a>
+        <a href="{{ url_for('cyber_quiz') }}" class="quiz-card">🛡️ Cyber Quiz</a>
+        <a href="{{ url_for('de_quiz') }}" class="quiz-card">💡 Digital Ele. Quiz</a>
+        <a href="{{ url_for('dbms_quiz') }}" class="quiz-card">🗄️ DBMS Quiz</a>
+        <a href="{{ url_for('python_quiz') }}" class="quiz-card">🐍 Python Quiz</a>
+        <a href="{{ url_for('ds_quiz') }}" class="quiz-card">🌀 DS Quiz</a>
+        <a href="{{ url_for('c_quiz') }}" class="quiz-card">📄 C Quiz</a>
+        <a href="{{ url_for('web_quiz') }}" class="quiz-card">🌐 Web Dev. Quiz</a>
+        <a href="{{ url_for('arch_quiz') }}" class="quiz-card">🖥️ Comp Architecture Quiz</a>
     </div>
 
      <footer>
